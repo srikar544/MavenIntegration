@@ -10,7 +10,8 @@ import org.testng.annotations.AfterTest;
 public class NewTest {		
 	    private WebDriver driver;		
 		@Test				
-		public void testEasy() {	
+		public void testEasy() {
+                        //System.out.println("starting execution");	
 			System.out.println("starting execution");
 			driver.get("http://demo.guru99.com/selenium/guru99home/");  
 			String title = driver.getTitle();				 
